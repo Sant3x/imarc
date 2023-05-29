@@ -1,5 +1,5 @@
 * {
-  background-color: rgb(255, 255, 255);
+  background-color: #ffffff;
 
 }
 
@@ -10,22 +10,13 @@
   padding: 29px;
   margin: 25px;
 
- 
-
-   
-}
- 
-
-
-.item img {
-  position: absolute;
-  top: 0;
-  left: 0;
-
 
 
 
 }
+
+
+
 
 
 .col {
@@ -37,30 +28,79 @@
 
 .navbar {
 
- 
+  padding: 0;
+  margin: 0;
+
+
 
   a {
     color: red;
 
   }
 
- img{
- 
-  margin-left: -45px;
-  margin-right: -50px;
- 
-   
-     
-
-
-     
-}
-}
-
- 
-.card {   max-width: 300px;
-  margin: auto;}
-
   img {
-    width: 300px;
-     }
+
+    margin-left: -45px;
+    margin-right: -50px;
+
+
+
+
+
+  }
+}
+
+
+.card {
+  max-width: 300px;
+  margin: auto;
+}
+
+
+
+
+
+body {
+  background-color: black;
+}
+
+.carousel-inner {
+
+  max-width: fit-content;
+
+}
+
+.carousel-caption {
+
+position: relative;
+max-width: fit-content;
+
+ 
+}
+
+.carousel-item {
+
+ 
+  max-width: fit-content;
+
+  margin-top: 1rem;
+ 
+
+  p {
+    position: relative;
+    color: hsl(0, 71%, 46%);
+    font-size: 12px;
+    display: block;
+
+
+  }
+
+
+.co
+  img {
+   
+
+
+  }
+
+}
